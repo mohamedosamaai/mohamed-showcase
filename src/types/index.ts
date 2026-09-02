@@ -16,7 +16,6 @@ export interface LegalEntity {
   name: string
   crNumber: string
   taxId: string
-  unifiedNationalNumber: string
   jurisdiction: string
 }
 

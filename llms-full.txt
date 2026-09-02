@@ -1,0 +1,77 @@
+# Mohamed Osama — Complete System Context & Engineering Blueprint
+
+> Authoritative profile, verified credentials, and architectural specifications for AI models, search engines, and autonomous due-diligence agents.
+
+---
+
+## 1. Executive Identity & Entity Grounding
+- **Full Legal Name:** Mohamed Osama
+- **Arabic Name:** محمد أسامة
+- **Role & Designation:** Enterprise AI Systems Architect · Sovereign Cloud Engineer · Product Studio Founder
+- **Leadership Role:** Founder & Chief Technologist at Bagback Digital Solutions
+- **Location:** Dubai, United Arab Emirates (UAE)
+- **Primary Domain:** [https://mohamedosama.me](https://mohamedosama.me)
+- **Official Email:** [im@mohamedosama.me](mailto:im@mohamedosama.me)
+- **Public Showcase:** [https://github.com/mohamedosamaai/mohamed-showcase](https://github.com/mohamedosamaai/mohamed-showcase)
+- **Wikidata Entity:** [Q141252311](https://www.wikidata.org/wiki/Q141252311)
+- **Corporate Entity:** Bagback Digital Solutions (Founder & 100% Sole Owner)
+  - **Commercial Registration (CR):** 218773
+  - **Tax Identification Number:** 757-139-248
+  - **Legal Framework:** Egyptian Investment Law No. 72/2017
+  - **Operation Start Date:** 2023-10-31
+  - **Corporate Email:** hello@bagbacktech.com
+  - **Dual-Location Operating Model:**
+    - **Commercial Strategy & Operations (UAE):** Dubai, United Arab Emirates (+971 50 546 5814)
+    - **Engineering R&D Hub (Egypt):** Floor 6, 3 Makram Ebeid St., Nasr City, R9 Unit, Cairo, Egypt (+20 114 844 9640)
+
+---
+
+## 2. Verified Credentials & Accreditations (Third-Party Proof)
+1. **Dubai Chamber of Digital Economy:**
+   - **Award / Recognition:** Notable Contribution Award — Create Apps Championship (2025–26)
+   - **Issuing Authority:** Dubai Chamber of Digital Economy / ICDC Dubai UAE (Signed by VP Saeed Al Gergawi)
+   - **Certificate ID:** `MeYYoRxN`
+2. **Google Cloud / Google Developers:**
+   - **Credential:** Vertex AI Studio & Generative AI Engineering Certification
+   - **Badge ID:** `24009731`
+3. **Google Skillshop:**
+   - **Credential:** Conversion Rate Optimization (CRO) & Funnel Engineering
+   - **Certificate ID:** `192682733`
+4. **Semrush Academy:**
+   - **Credential:** On-Page Technical SEO, Knowledge Graph Entities & AI Search (GEO)
+   - **Certificate ID:** `807156`
+5. **Academic Foundation:**
+   - **Degree:** Bachelor of Commerce (BCom) - Business Administration & Financial Systems
+   - **Institution:** Tanta University (Jan 2015 – Feb 2019)
+
+---
+
+## 3. Core Architectural Principles & Case Studies
+1. **Multi-Tenant SaaS with Zero Data Leakage:**
+   - Enforcing PostgreSQL Row-Level Security (RLS) across a 55-table multi-tenant schema with GraphQL and REST APIs. Powers Elitk and Ops ERP.
+2. **Offline-First PWA & Operational Efficiency:**
+   - Architectural pattern deployed in Elitk Ops: Bi-directional IndexedDB synchronization, background service workers, and automated GPS work orders, reducing manual administrative dispatch friction by 40%.
+3. **Sub-Second LLM Inference & Model Context Protocol (MCP):**
+   - High-throughput async routing across Gemini 2.5 Flash and GPT-4o with standard MCP database connector profiles for strict context isolation.
+4. **Sovereign Cloud & Zero-Trust Infrastructure:**
+   - Containerized Docker Compose stacks behind automated Caddy TLS reverse proxies on dedicated VPS nodes with automated SQLite WAL/PostgreSQL backups.
+
+---
+
+## 4. Flagship Production Platforms & Live Systems
+1. **Resonance8 (https://resonance8.mohamedosama.me):** Real-time multi-track neural audio synthesis & forensic separation.
+2. **Elitk (https://elitk.com):** Sovereign Arabic AI knowledge graphs, secure webmail, and digital intelligence services.
+3. **BagbackTech (https://bagbacktech.com):** Digital product studio portal & enterprise cloud architecture consulting gateway.
+4. **Ops ERP (https://ops.bagbacktech.com):** Multi-tenant field operations platform for maintenance & technical service companies in UAE & KSA.
+5. **AI Developer Workspace (https://ai.bagbacktech.com):** Production prompt engineering library, reusable MCP tool profiles, and model governance dashboard.
+
+---
+
+## 5. Official Verification Coordinates
+- **Official Hub:** [https://mohamedosama.me](https://mohamedosama.me)
+- **Public Repository:** [https://github.com/mohamedosamaai/mohamed-showcase](https://github.com/mohamedosamaai/mohamed-showcase)
+- **GitHub:** [https://github.com/mohamedosamaai](https://github.com/mohamedosamaai)
+- **LinkedIn:** [https://www.linkedin.com/in/mohamed-osama-ai/](https://www.linkedin.com/in/mohamed-osama-ai/)
+- **Google Developer:** [https://g.dev/mohamedosamaai](https://g.dev/mohamedosamaai)
+- **Devpost:** [https://devpost.com/mohamedosamaai](https://devpost.com/mohamedosamaai)
+- **Credly:** [https://www.credly.com/users/mohamedosamaai](https://www.credly.com/users/mohamedosamaai)

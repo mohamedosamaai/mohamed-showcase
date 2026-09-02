@@ -106,7 +106,7 @@ docker compose up -d --build
 ## 🏛️ Verified Authority & Accreditations
 
 - 🌐 **Wikidata Entity:** [`Q141252311`](https://www.wikidata.org/wiki/Q141252311)
-- 🏢 **Bagback Digital Solutions:** CR `218773` | Tax ID `757-139-248` | Unified National No `105300900218773` (Dubai, UAE & Cairo, Egypt)
+- 🏢 **Bagback Digital Solutions:** CR `218773` | Tax ID `757-139-248` (Dubai, UAE & Cairo, Egypt)
 - 🏆 **Dubai Chamber of Digital Economy:** Notable Contribution Award (`MeYYoRxN`)
 - ☁️ **Google Cloud:** Vertex AI Studio Practitioner ID `#24009731`
 - 📈 **Google Skillshop:** Conversion Rate Optimization Certification ID `#192682733`

@@ -33,7 +33,6 @@ export const SHOWCASE_AUTHOR: AuthorProfile = {
     name: 'Bagback Digital Solutions',
     crNumber: '218773',
     taxId: '757-139-248',
-    unifiedNationalNumber: '105300900218773',
     jurisdiction: 'Dubai, UAE & Cairo, Egypt'
   },
   authority: {

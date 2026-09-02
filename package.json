@@ -1,13 +1,27 @@
 {
-  "name": "@mohamedosamaai/mohamed-showcase",
-  "version": "1.0.0",
-  "description": "Interactive Architecture Showcase & Open Contracts for Mohamed Osama AI Systems Platform",
+  "name": "@mohamedosamaai/mohamed-mock",
+  "version": "1.0.1",
+  "description": "Interactive Architecture Showcase & Mock Simulation Layer for Mohamed Osama Platform",
   "main": "dist/mocks/index.js",
   "types": "dist/types/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "SPEC.md"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "npx serve .",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "test": "node --test dist/tests/**/*.test.js"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedosamaai/mohamed-showcase.git"
   },
   "keywords": [
     "showcase",
@@ -20,6 +34,7 @@
   "author": "Mohamed Osama <im@mohamedosama.me>",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^22.20.1",
     "typescript": "^5.7.3"
   }
 }
