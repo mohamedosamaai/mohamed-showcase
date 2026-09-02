@@ -1,0 +1,25 @@
+{
+  "name": "@mohamedosamaai/mohamed-showcase",
+  "version": "1.0.0",
+  "description": "Interactive Architecture Showcase & Open Contracts for Mohamed Osama AI Systems Platform",
+  "main": "dist/mocks/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npx serve .",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "showcase",
+    "architecture",
+    "typescript",
+    "ai-systems",
+    "contracts",
+    "mocks"
+  ],
+  "author": "Mohamed Osama <im@mohamedosama.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

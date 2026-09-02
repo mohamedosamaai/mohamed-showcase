@@ -1,0 +1,35 @@
+name: Showcase Verification & CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Verify TypeScript & Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install TypeScript compiler
+        run: npm install
+
+      - name: Run Typecheck
+        run: npm run lint
+
+      - name: Compile Contracts
+        run: npm run build

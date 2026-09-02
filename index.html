@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Osama — Architecture Showcase & Interactive Contracts</title>
+  <meta name="description" content="Interactive Architecture Showcase & Open TypeScript Contracts for Mohamed Osama AI Systems Platform.">
+  <meta name="geo.region" content="AE-DU">
+  <meta name="geo.placename" content="Dubai">
+  <meta name="geo.position" content="25.2048;55.2708">
+  <meta name="ICBM" content="25.2048, 55.2708">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#ecfdf5',
+              400: '#34d399',
+              500: '#10b981',
+              600: '#059669',
+              900: '#064e3b',
+              glow: '#00ff9d'
+            },
+            cyber: {
+              bg: '#05070a',
+              card: '#0c1017',
+              border: '#1b2432',
+              hover: '#222f42'
+            }
+          },
+          fontFamily: {
+            mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
+            sans: ['Inter', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+    
+    body {
+      background-color: #05070a;
+      color: #f1f5f9;
+      font-family: 'Inter', sans-serif;
+    }
+    .grid-bg {
+      background-image: radial-gradient(rgba(16, 185, 129, 0.08) 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
+    .glow-border {
+      box-shadow: 0 0 15px -3px rgba(16, 185, 129, 0.15);
+    }
+    .glow-border:hover {
+      box-shadow: 0 0 25px -2px rgba(16, 185, 129, 0.3);
+    }
+  </style>
+</head>
+<body class="min-h-screen grid-bg selection:bg-brand-500 selection:text-black">
+
+  <!-- Header / Navigation -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-cyber-bg/80 border-b border-cyber-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="w-9 h-9 rounded-lg bg-brand-500/10 border border-brand-500/30 flex items-center justify-center text-brand-400 font-mono font-bold">
+          MO
+        </div>
+        <div>
+          <span class="font-bold tracking-tight text-white block leading-tight">Mohamed Osama</span>
+          <span class="text-xs font-mono text-emerald-400">Architecture Showcase & Contracts</span>
+        </div>
+      </div>
+
+      <nav class="flex items-center space-x-4">
+        <a href="#vitals" class="text-sm text-slate-400 hover:text-white transition">Vitals</a>
+        <a href="#platforms" class="text-sm text-slate-400 hover:text-white transition">Ecosystem</a>
+        <a href="#contracts" class="text-sm text-slate-400 hover:text-white transition">Contracts</a>
+        <a href="#authority" class="text-sm text-slate-400 hover:text-white transition">Authority</a>
+        <a href="https://mohamedosama.me" target="_blank" class="px-3.5 py-1.5 rounded-md bg-brand-500 text-black font-semibold text-xs hover:bg-brand-400 transition flex items-center space-x-1">
+          <span>Live Platform</span>
+          <i data-lucide="external-link" class="w-3.5 h-3.5 ml-1"></i>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
+    <section class="text-center space-y-4 max-w-3xl mx-auto pt-6">
+      <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-400 text-xs font-mono">
+        <span class="w-2 h-2 rounded-full bg-brand-400 animate-pulse"></span>
+        <span>Sovereign AI Systems Architecture & Contracts</span>
+      </div>
+      <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-white">
+        Open Contracts & Simulation Showcase
+      </h1>
+      <p class="text-slate-400 text-base sm:text-lg leading-relaxed">
+        Production interface contracts, schemas, and live mock simulation layer powering the sovereign AI ecosystem of Mohamed Osama.
+      </p>
+    </section>
+
+    <!-- System Vitals (Cyber Bento) -->
+    <section id="vitals" class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="bg-cyber-card border border-cyber-border rounded-xl p-5 glow-border">
+        <div class="text-xs font-mono text-slate-400 uppercase tracking-wider mb-1 flex items-center justify-between">
+          <span>Edge Latency</span>
+          <i data-lucide="zap" class="w-4 h-4 text-emerald-400"></i>
+        </div>
+        <div class="text-2xl font-bold font-mono text-emerald-400">&lt; 50ms</div>
+        <div class="text-xs text-slate-500 mt-1">Turbopack & Edge Worldwide</div>
+      </div>
+
+      <div class="bg-cyber-card border border-cyber-border rounded-xl p-5 glow-border">
+        <div class="text-xs font-mono text-slate-400 uppercase tracking-wider mb-1 flex items-center justify-between">
+          <span>Security Audit</span>
+          <i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i>
+        </div>
+        <div class="text-2xl font-bold font-mono text-white">0 CVEs</div>
+        <div class="text-xs text-slate-500 mt-1">Zero Vulnerabilities Certified</div>
+      </div>
+
+      <div class="bg-cyber-card border border-cyber-border rounded-xl p-5 glow-border">
+        <div class="text-xs font-mono text-slate-400 uppercase tracking-wider mb-1 flex items-center justify-between">
+          <span>Compiled Routes</span>
+          <i data-lucide="network" class="w-4 h-4 text-emerald-400"></i>
+        </div>
+        <div class="text-2xl font-bold font-mono text-white">99 Routes</div>
+        <div class="text-xs text-slate-500 mt-1">100% Strict TypeScript</div>
+      </div>
+
+      <div class="bg-cyber-card border border-cyber-border rounded-xl p-5 glow-border">
+        <div class="text-xs font-mono text-slate-400 uppercase tracking-wider mb-1 flex items-center justify-between">
+          <span>Standardized Git</span>
+          <i data-lucide="git-commit" class="w-4 h-4 text-emerald-400"></i>
+        </div>
+        <div class="text-2xl font-bold font-mono text-white">266 Commits</div>
+        <div class="text-xs text-slate-500 mt-1">100% Unified Authorship</div>
+      </div>
+    </section>
+
+    <!-- Ecosystem Platforms -->
+    <section id="platforms" class="space-y-6">
+      <div class="flex items-center justify-between">
+        <div>
+          <h2 class="text-2xl font-bold text-white tracking-tight">Ecosystem Platforms</h2>
+          <p class="text-sm text-slate-400">Interactive live mock contracts for 7 production architectures</p>
+        </div>
+        <div class="inline-flex rounded-lg bg-cyber-card border border-cyber-border p-1 text-xs font-mono" id="filter-buttons">
+          <button onclick="filterProjects('all')" class="px-3 py-1 rounded bg-brand-500 text-black font-semibold">All</button>
+          <button onclick="filterProjects('AI Audio')" class="px-3 py-1 rounded text-slate-400 hover:text-white">AI Audio</button>
+          <button onclick="filterProjects('AI Agents')" class="px-3 py-1 rounded text-slate-400 hover:text-white">AI Agents</button>
+          <button onclick="filterProjects('Enterprise')" class="px-3 py-1 rounded text-slate-400 hover:text-white">Enterprise</button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="projects-grid">
+        <!-- Injected via JavaScript -->
+      </div>
+    </section>
+
+    <!-- TypeScript Contract Inspector -->
+    <section id="contracts" class="space-y-6">
+      <div>
+        <h2 class="text-2xl font-bold text-white tracking-tight">TypeScript Contracts & Schema Explorer</h2>
+        <p class="text-sm text-slate-400">Inspect compiled TypeScript type definitions and mock simulation outputs</p>
+      </div>
+
+      <div class="bg-cyber-card border border-cyber-border rounded-xl overflow-hidden">
+        <div class="flex border-b border-cyber-border bg-cyber-bg px-4 py-2.5 items-center justify-between">
+          <div class="flex space-x-2">
+            <button onclick="switchTab('types')" id="tab-types" class="px-3 py-1 text-xs font-mono rounded bg-brand-500/10 text-brand-400 border border-brand-500/30">src/types/index.ts</button>
+            <button onclick="switchTab('mocks')" id="tab-mocks" class="px-3 py-1 text-xs font-mono rounded text-slate-400 hover:text-white">src/mocks/index.ts</button>
+            <button onclick="switchTab('json')" id="tab-json" class="px-3 py-1 text-xs font-mono rounded text-slate-400 hover:text-white">Live API Payload (JSON)</button>
+          </div>
+          <span class="text-xs font-mono text-slate-500">TypeScript 5.7+</span>
+        </div>
+        <div class="p-4 bg-cyber-bg/50">
+          <pre class="font-mono text-xs text-slate-300 overflow-x-auto p-4 bg-black/40 rounded-lg max-h-96" id="code-viewer"></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Authority & Knowledge Graph -->
+    <section id="authority" class="bg-cyber-card border border-cyber-border rounded-2xl p-8 space-y-6">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-cyber-border pb-6">
+        <div>
+          <h2 class="text-xl font-bold text-white">Verified Knowledge Graph Authority</h2>
+          <p class="text-xs font-mono text-emerald-400">Entity: Mohamed Osama | Bagback Digital Solutions</p>
+        </div>
+        <div class="flex flex-wrap gap-2 text-xs font-mono">
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700">Wikidata: Q141252311</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700">CR: 218773</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700">Tax ID: 757-139-248</span>
+          <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700">Dubai Chamber: MeYYoRxN</span>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-slate-400">
+        <div>
+          <span class="block text-white font-semibold mb-1">Corporate HQ</span>
+          <p class="text-xs">Bagback Digital Solutions, Dubai, UAE & Cairo, Egypt. Unified National ID: 105300900218773.</p>
+        </div>
+        <div>
+          <span class="block text-white font-semibold mb-1">Accreditations</span>
+          <p class="text-xs">Google Cloud Vertex AI Studio (#24009731), Google Skillshop CRO (#192682733), Semrush Academy (#807156).</p>
+        </div>
+        <div>
+          <span class="block text-white font-semibold mb-1">Architect Contact</span>
+          <p class="text-xs">Mohamed Osama (<a href="mailto:im@mohamedosama.me" class="text-emerald-400 hover:underline">im@mohamedosama.me</a>)</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-cyber-border py-8 mt-16 bg-cyber-bg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+      <div>
+        © 2026 Mohamed Osama. Open Architecture Contracts under MIT License.
+      </div>
+      <div class="flex items-center space-x-4">
+        <a href="https://github.com/mohamedosamaai/mohamed-showcase" class="hover:text-white transition">GitHub Repo</a>
+        <a href="https://mohamedosama.me" class="hover:text-white transition">Live Website</a>
+        <a href="https://www.wikidata.org/wiki/Q141252311" class="hover:text-white transition">Wikidata Entity</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive Data Script -->
+  <script>
+    const PROJECTS = [
+      {
+        slug: 'resonance8',
+        title: 'Resonance8 Audio Intelligence',
+        tagline: 'Real-time multi-track neural audio synthesis & forensic separation.',
+        tags: ['AI Audio', 'WebAudio', 'Rust/WASM'],
+        stack: ['Next.js 16', 'TypeScript', 'Rust', 'WebAssembly'],
+        highlights: [{ label: 'Latency', value: '< 18ms' }, { label: 'Audio Engine', value: 'Rust WASM' }]
+      },
+      {
+        slug: 'bagbacktech',
+        title: 'Bagback Digital Solutions Portal',
+        tagline: 'Enterprise digital engineering & bespoke software headquarters.',
+        tags: ['Enterprise', 'Architecture', 'TypeScript'],
+        stack: ['Next.js 16', 'React 19', 'Tailwind CSS', 'Docker'],
+        highlights: [{ label: 'Retention', value: '98.4%' }, { label: 'Security', value: '100/100' }]
+      },
+      {
+        slug: 'elitk',
+        title: 'Elitk Arabic Intelligence Hub',
+        tagline: 'Sovereign Arabic AI knowledge graphs & encrypted webmail services.',
+        tags: ['Arabic NLP', 'Webmail', 'DevSecOps'],
+        stack: ['Next.js 16', 'Docker Compose', 'Postfix', 'Dovecot'],
+        highlights: [{ label: 'Arabic Accuracy', value: '99.2%' }, { label: 'Isolation', value: 'Strict' }]
+      },
+      {
+        slug: 'ai-workspace',
+        title: 'Autonomous AI Agent Studio',
+        tagline: 'Multi-agent orchestration platform integrating Model Context Protocol (MCP).',
+        tags: ['AI Agents', 'MCP Protocol', 'LLM Chains'],
+        stack: ['TypeScript', 'Vertex AI', 'Node.js', 'Next.js 16'],
+        highlights: [{ label: 'Throughput', value: '450 req/s' }, { label: 'MCP Tools', value: '18 Active' }]
+      }
+    ];
+
+    function renderProjects(list) {
+      const grid = document.getElementById('projects-grid');
+      grid.innerHTML = list.map(p => `
+        <div class="bg-cyber-card border border-cyber-border rounded-xl p-6 glow-border space-y-4">
+          <div class="flex items-center justify-between">
+            <h3 class="text-lg font-bold text-white">${p.title}</h3>
+            <span class="px-2 py-0.5 rounded text-xs font-mono bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">LIVE</span>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed">${p.tagline}</p>
+          <div class="flex flex-wrap gap-1.5">
+            ${p.tags.map(t => `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-slate-800 text-slate-300">${t}</span>`).join('')}
+          </div>
+          <div class="grid grid-cols-2 gap-2 pt-2 border-t border-cyber-border/50 text-xs font-mono">
+            ${p.highlights.map(h => `<div><span class="text-slate-500">${h.label}:</span> <span class="text-emerald-400 font-bold">${h.value}</span></div>`).join('')}
+          </div>
+        </div>
+      `).join('');
+      lucide.createIcons();
+    }
+
+    function filterProjects(category) {
+      const buttons = document.querySelectorAll('#filter-buttons button');
+      buttons.forEach(b => {
+        if (b.innerText.toLowerCase() === category.toLowerCase()) {
+          b.className = "px-3 py-1 rounded bg-brand-500 text-black font-semibold";
+        } else {
+          b.className = "px-3 py-1 rounded text-slate-400 hover:text-white";
+        }
+      });
+
+      if (category === 'all') {
+        renderProjects(PROJECTS);
+      } else {
+        renderProjects(PROJECTS.filter(p => p.tags.includes(category)));
+      }
+    }
+
+    const SNIPPETS = {
+      types: `export interface ProjectContract {
+  id: number
+  slug: string
+  status: 'live' | 'client' | 'dev'
+  title_en: string
+  title_ar: string
+  tags: string[]
+  stack: string[]
+  highlights?: { label: string; value: string }[]
+  featured: boolean
+}
+
+export interface AuthorProfile {
+  name: string
+  title_en: string
+  email: string
+  geo: { region: string; placename: string; latitude: number; longitude: number }
+  organization: { name: string; crNumber: string; taxId: string }
+}`,
+      mocks: `export const SHOWCASE_VITALS = {
+  ttfb: '< 50ms',
+  cves: 0,
+  compiledRoutes: 99,
+  typeScriptErrors: 0,
+  commitsStandardized: 266,
+  uptimeSla: '99.99%'
+}
+
+export async function fetchShowcaseProjects() {
+  return { success: true, status: 200, data: SHOWCASE_PROJECTS }
+}`,
+      json: JSON.stringify({
+        author: "Mohamed Osama",
+        role: "Production AI Systems Architect",
+        status: "Online",
+        vitals: { ttfb: "<50ms", cves: 0, routes: 99 },
+        authority: { wikidata: "Q141252311", dubaiChamber: "MeYYoRxN" }
+      }, null, 2)
+    };
+
+    function switchTab(tab) {
+      document.getElementById('code-viewer').textContent = SNIPPETS[tab];
+      ['types', 'mocks', 'json'].forEach(t => {
+        const btn = document.getElementById('tab-' + t);
+        if (t === tab) {
+          btn.className = "px-3 py-1 text-xs font-mono rounded bg-brand-500/10 text-brand-400 border border-brand-500/30";
+        } else {
+          btn.className = "px-3 py-1 text-xs font-mono rounded text-slate-400 hover:text-white";
+        }
+      });
+    }
+
+    // Initialize
+    renderProjects(PROJECTS);
+    switchTab('types');
+    lucide.createIcons();
+  </script>
+</body>
+</html>
