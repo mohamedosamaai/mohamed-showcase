@@ -48,9 +48,9 @@ jobs:
       - name: Package Distribution Tarball
         id: package
         run: |
-          tar -czf ../mohamed-mock-dist.tar.gz --exclude='./.git' --exclude='./node_modules' .
-          mv ../mohamed-mock-dist.tar.gz ./mohamed-mock-dist.tar.gz
-          echo "artifact_path=mohamed-mock-dist.tar.gz" >> $GITHUB_OUTPUT
+          tar -czf ../mohamed-showcase-dist.tar.gz --exclude='./.git' --exclude='./node_modules' .
+          mv ../mohamed-showcase-dist.tar.gz ./mohamed-showcase-dist.tar.gz
+          echo "artifact_path=mohamed-showcase-dist.tar.gz" >> $GITHUB_OUTPUT
 
       - name: Attest Build Provenance (SLSA Level 3 Sigstore)
         uses: actions/attest-build-provenance@v2
@@ -60,6 +60,6 @@ jobs:
       - name: Upload Attested Distribution Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: mohamed-mock-dist
-          path: mohamed-mock-dist.tar.gz
+          name: mohamed-showcase-dist
+          path: mohamed-showcase-dist.tar.gz
           retention-days: 90
