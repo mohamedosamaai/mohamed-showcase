@@ -39,28 +39,8 @@ jobs:
       - name: Run Unit Tests
         run: npm test
 
-      - name: Prepare Package Workspaces
-        run: |
-          mkdir -p packages/core/dist packages/mock/dist
-          cp -r dist/* packages/core/dist/
-          cp -r dist/* packages/mock/dist/
-
-      - name: Publish Primary Package (@mohamedosamaai/mohamed-showcase)
+      - name: Publish Modular Showcase Package (@mohamedosamaai/mohamed-showcase)
         run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Publish Core Contracts Package (@mohamedosamaai/mohamed-core)
-        run: |
-          cd packages/core
-          npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Publish Mock Simulation Package (@mohamedosamaai/mohamed-mock)
-        run: |
-          cd packages/mock
-          npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

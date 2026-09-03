@@ -1,9 +1,31 @@
 {
   "name": "@mohamedosamaai/mohamed-showcase",
   "version": "1.0.2",
-  "description": "Interactive Architecture Showcase & Mock Simulation Layer for Mohamed Osama Platform",
+  "description": "Interactive Architecture Showcase, Strict Contracts & Mock Simulation Layer for Mohamed Osama Platform",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./contracts": {
+      "import": "./dist/contracts/index.js",
+      "types": "./dist/contracts/index.d.ts"
+    },
+    "./mocks": {
+      "import": "./dist/mocks/index.js",
+      "types": "./dist/mocks/index.d.ts"
+    },
+    "./types": {
+      "import": "./dist/types/index.js",
+      "types": "./dist/types/index.d.ts"
+    },
+    "./client": {
+      "import": "./dist/client/index.js",
+      "types": "./dist/client/index.d.ts"
+    }
+  },
   "files": [
     "dist",
     "README.md",
