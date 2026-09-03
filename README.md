@@ -1,25 +1,24 @@
-# 🏛️ Mohamed Osama — Architecture Showcase & Interface Contracts
-
 <div align="center">
 
-[![Live Production](https://img.shields.io/badge/Live_Platform-mohamedosama.me-00ff9d?style=for-the-badge&logo=googlechrome&logoColor=black)](https://mohamedosama.me)
-[![Wikidata Authority](https://img.shields.io/badge/Wikidata-Q141252311-3399CC?style=for-the-badge&logo=wikidata&logoColor=white)](https://www.wikidata.org/wiki/Q141252311)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Security Audit](https://img.shields.io/badge/Security_Audit-0_CVEs-10b981?style=for-the-badge&logo=securityscorecard&logoColor=white)](SPEC.md)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+  <!-- Animated Cyber Typing SVG Header -->
+  <a href="https://github.com/mohamedosamaai/mohamed-showcase">
+    <img src="https://readme-typing-svg.demolab.com/?font=Outfit&size=24&pause=1000&color=00FF9D&center=true&vCenter=true&width=750&lines=Mohamed+Osama+Sovereign+Architecture+Showcase;Production+AI+Systems+%26+Cloud+Infrastructure;TypeScript+5.7%2B+Contracts+%26+Simulation+Suite;Sigstore+SLSA+Level+3+Provenance+Attested" alt="Mohamed Osama Showcase Typing Banner" />
+  </a>
 
-<br/>
+  <br/>
 
-```text
-    __  ___      __                              __   ____                               
-   /  |/  /___  / /_  ____ _____ ___  ___  ____/ /  / __ \_________ _____ ___  ____ _
-  / /|_/ / __ \/ __ \/ __ `/ __ `__ \/ _ \/ __  /  / / / / ___/ __ `/ __ `__ \/ __ `/
- / /  / / /_/ / / / / /_/ / / / / / /  __/ /_/ /  / /_/ (__  ) /_/ / / / / / / /_/ / 
-/_/  /_/\____/_/ /_/\__,_/_/ /_/ /_/\___/\__,_/   \____/____/\__,_/_/ /_/ /_/\__,_/  
-```
+  [![Live Production](https://img.shields.io/badge/Live_Platform-mohamedosama.me-00ff9d?style=for-the-badge&logo=googlechrome&logoColor=black)](https://mohamedosama.me)
+  [![Wikidata Authority](https://img.shields.io/badge/Wikidata-Q141252311-3399CC?style=for-the-badge&logo=wikidata&logoColor=white)](https://www.wikidata.org/wiki/Q141252311)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.7+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![Security Audit](https://img.shields.io/badge/Security_Audit-0_CVEs-10b981?style=for-the-badge&logo=securityscorecard&logoColor=white)](SPEC.md)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-**Production AI Systems Architect · Senior Full-Stack Engineer · Founder**  
-*Bagback Digital Solutions (CR: 218773, Dubai, UAE) · Cairo, Egypt*
+  <br/>
+
+  <p align="center">
+    <b>Production AI Systems Architect • Senior Full-Stack Engineer • Founder</b><br/>
+    <i>Bagback Digital Solutions (CR: 218773, Dubai, UAE) • Cairo, Egypt</i>
+  </p>
 
 </div>
 
@@ -70,6 +69,18 @@ C4Context
 | **TypeScript Coverage** | `100% Strict` | `tsc --noEmit` exits with 0 errors |
 | **Compiled Routes** | `99 Routes` | Full static generation & dynamic bilingual parity |
 | **Git Commit Authorship** | `100% Unified` | All commits by `Mohamed Osama <im@mohamedosama.me>` |
+
+---
+
+## 📦 Published Package Suite (GitHub Packages)
+
+The interface contracts and simulation suite are published officially across 3 modular packages with **Sigstore SLSA Level 3 Provenance**:
+
+| Package Name | Scope | Install Command |
+| :--- | :--- | :--- |
+| **`@mohamedosamaai/mohamed-showcase`** | Complete Suite & Client Helpers | `npm install @mohamedosamaai/mohamed-showcase` |
+| **`@mohamedosamaai/mohamed-core`** | TypeScript Interface Contracts | `npm install @mohamedosamaai/mohamed-core` |
+| **`@mohamedosamaai/mohamed-mock`** | Mock Data & Simulation State | `npm install @mohamedosamaai/mohamed-mock` |
 
 ---
 
