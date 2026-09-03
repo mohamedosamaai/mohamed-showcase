@@ -2,7 +2,7 @@
 
   <!-- Animated Cyber Typing SVG Header -->
   <a href="https://github.com/mohamedosamaai/mohamed-showcase">
-    <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=24&duration=2500&pause=1000&color=00FF9D&center=true&vCenter=true&width=750&lines=Mohamed+Osama+Sovereign+Architecture+Showcase;Production+AI+Systems+%26+Cloud+Infrastructure;TypeScript+5.7%2B+Contracts+%26+Simulation+Suite;Sigstore+SLSA+Level+3+Provenance+Attested" alt="Mohamed Osama Showcase Typing Banner" />
+    <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=24&duration=2500&pause=1000&color=00FF9D&center=true&vCenter=true&width=780&lines=Mohamed+Osama+Sovereign+Architecture+Showcase;Production+AI+Systems+and+Cloud+Infrastructure;TypeScript+5.7%2B+Contracts+and+Simulation+Suite;Sigstore+SLSA+Level+3+Provenance+Attested" alt="Mohamed Osama Showcase Typing Banner" />
   </a>
 
   <br/>
@@ -10,6 +10,7 @@
   [![Live Platform](https://img.shields.io/badge/Live_Platform-mohamedosama.me-00ff9d?style=for-the-badge&logo=googlechrome&logoColor=black)](https://mohamedosama.me)
   [![Wikidata Authority](https://img.shields.io/badge/Wikidata-Q141252311-3399CC?style=for-the-badge&logo=wikidata&logoColor=white)](https://www.wikidata.org/wiki/Q141252311)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.7+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-mohamedosama-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/mohamedosama)
   [![Security Audit](https://img.shields.io/badge/Security_Audit-0_CVEs-10b981?style=for-the-badge&logo=securityscorecard&logoColor=white)](SPEC.md)
   [![SLSA Level 3](https://img.shields.io/badge/SLSA-Level_3_Attested-7C3AED?style=for-the-badge&logo=sigstore&logoColor=white)](https://slsa.dev)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
@@ -112,13 +113,14 @@ C4Context
 
 ## 📦 Published Package Suite (GitHub Packages)
 
-The interface contracts and simulation suite are published officially across 3 modular packages with **Sigstore SLSA Level 3 Provenance**:
+The interface contracts and simulation suite are published officially across modular subpath exports with **Sigstore SLSA Level 3 Provenance**:
 
-| Package Name | Scope | Install Command |
+| Subpath Import | Purpose | Usage Example |
 | :--- | :--- | :--- |
-| **`@mohamedosamaai/mohamed-showcase`** | Complete Suite & Client Helpers | `npm install @mohamedosamaai/mohamed-showcase` |
-| **`@mohamedosamaai/mohamed-core`** | TypeScript Interface Contracts | `npm install @mohamedosamaai/mohamed-core` |
-| **`@mohamedosamaai/mohamed-mock`** | Mock Data & Simulation State | `npm install @mohamedosamaai/mohamed-mock` |
+| **`@mohamedosamaai/mohamed-showcase`** | Complete Suite Entry | `import * as Showcase from '@mohamedosamaai/mohamed-showcase'` |
+| **`@mohamedosamaai/mohamed-showcase/contracts`** | Strict Interface Contracts | `import { SystemContract, ProjectContract } from '@mohamedosamaai/mohamed-showcase/contracts'` |
+| **`@mohamedosamaai/mohamed-showcase/mocks`** | High-Fidelity Mock State | `import { projectsMock, servicesMock } from '@mohamedosamaai/mohamed-showcase/mocks'` |
+| **`@mohamedosamaai/mohamed-showcase/client`** | Simulated Async Client | `import { SimulatedClient } from '@mohamedosamaai/mohamed-showcase/client'` |
 
 ---
 
@@ -152,16 +154,13 @@ mohamed-showcase/
 │   ├── tests/                   # Native test runner unit test suite
 │   │   └── contracts.test.ts
 │   └── index.ts                 # Master package entry point
-├── packages/                    # Dedicated publishing workspaces
-│   ├── core/                    # @mohamedosamaai/mohamed-core
-│   └── mock/                    # @mohamedosamaai/mohamed-mock
-├── wiki/                        # 7-page comprehensive architecture wiki
+├── wiki/                        # 7-page comprehensive architecture wiki (Live in Wiki Tab)
 ├── index.html                   # Interactive Cyber Bento showcase application
 ├── llms.txt                     # Semantic AI grounding summary
 ├── llms-full.txt                # Complete system architecture specification for LLMs
 ├── Dockerfile                   # Multi-stage Alpine container build
 ├── docker-compose.yml           # Container orchestration definition
-├── package.json                 # Package metadata & publish configuration
+├── package.json                 # Package metadata & subpath exports
 └── tsconfig.json                # Strict TypeScript configuration
 ```
 
@@ -202,6 +201,20 @@ npx serve .
 
 ---
 
+## 📚 Ecosystem Documentation & Architecture Wiki
+
+Comprehensive technical documentation is hosted on the official [GitHub Wiki](https://github.com/mohamedosamaai/mohamed-showcase/wiki):
+
+- 🏠 **[Architecture Home](https://github.com/mohamedosamaai/mohamed-showcase/wiki/Home)** — Platform governance, SLSA level 3 security, and contracts.
+- 🏗️ **[System Architecture](https://github.com/mohamedosamaai/mohamed-showcase/wiki/System-Architecture)** — C4 level 1, 2, and 3 models with edge proxy routing.
+- 🔄 **[Data Flow & Sequences](https://github.com/mohamedosamaai/mohamed-showcase/wiki/Data-Flow-and-Sequence)** — Client request lifecycle, lead capture, and telemetry sequences.
+- 🗄️ **[Database Schemas](https://github.com/mohamedosamaai/mohamed-showcase/wiki/Database-Schema)** — Entity relationship models, SQLite WAL mode, and migrations.
+- 🛡️ **[Security & Mock Strategy](https://github.com/mohamedosamaai/mohamed-showcase/wiki/Security-and-Mock-Strategy)** — Zero-CVE dependency enforcement and mock state design.
+- 🤖 **[API & AI Agent Integration](https://github.com/mohamedosamaai/mohamed-showcase/wiki/API-and-AI-Agent-Integration)** — OpenAPI 3.1 endpoints and MCP model connectors.
+- 🛠️ **[Developer Setup Playbook](https://github.com/mohamedosamaai/mohamed-showcase/wiki/Developer-Setup)** — Local development environment and containerized workflows.
+
+---
+
 ## 🏛️ Verified Authority & Accreditations
 
 - 🌐 **Wikidata Entity:** [`Q141252311`](https://www.wikidata.org/wiki/Q141252311)
@@ -217,7 +230,7 @@ npx serve .
 ## 📜 Governance & Documentation
 
 - **System Specification:** [SPEC.md](SPEC.md)
-- **Architecture Wiki:** [`wiki/`](wiki/) (7 Detailed Architecture Modules)
+- **Live Architecture Wiki:** [GitHub Wiki](https://github.com/mohamedosamaai/mohamed-showcase/wiki)
 - **LLM Grounding Context:** [llms.txt](llms.txt) | [llms-full.txt](llms-full.txt)
 - **Code of Conduct:** [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 - **Contributing Guidelines:** [CONTRIBUTING.md](CONTRIBUTING.md)
