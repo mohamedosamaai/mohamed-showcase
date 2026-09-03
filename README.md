@@ -1,4 +1,4 @@
-# 🏛️ Mohamed Osama — Architecture Showcase & Interactive Contracts
+# 🏛️ Mohamed Osama — Architecture Showcase & Interface Contracts
 
 <div align="center">
 
@@ -27,13 +27,14 @@
 
 ## 🌟 Overview & Purpose
 
-`mohamed-showcase` serves as the official open interface specification, compiled contracts repository, and interactive simulation dashboard for the sovereign AI production platform of **Mohamed Osama** ([mohamedosama.me](https://mohamedosama.me)).
+`mohamed-showcase` is the official open interface specification, compiled contracts repository, and interactive simulation dashboard for the sovereign AI production platform of **Mohamed Osama** ([mohamedosama.me](https://mohamedosama.me)).
 
 ### 🎯 Core Capabilities
-- 📐 **Strict TypeScript Interface Contracts:** Zero-debt type definitions for projects, ecosystem services, leads, and entity schemas (`src/types/index.ts`).
-- 🧪 **Interactive Mock Simulation Layer:** Comprehensive mock data and client simulation functions for testing edge and cloud components (`src/mocks/index.ts`).
-- ⚡ **Cyber Bento Showcase UI:** Responsive, standalone Tailwind & Lucide interface for exploring architectural models and live schema payloads (`index.html`).
-- 🐳 **Containerized & Edge-Ready:** Standalone multi-stage Docker build served via Alpine Nginx with strict security headers.
+- 📐 **Modular TypeScript Interface Contracts:** Zero-debt type definitions for ecosystem entities, multi-agent pipelines, and telemetry envelopes ([`src/contracts/`](src/contracts/)).
+- 🧪 **Interactive Simulation Engine:** High-fidelity mock state and async query helpers for testing edge and cloud components ([`src/mocks/`](src/mocks/) & [`src/client/`](src/client/)).
+- ⚡ **Cyber Bento Showcase Dashboard:** Standalone Tailwind & Lucide interface for exploring architectural models and live payloads ([`index.html`](index.html)).
+- 🤖 **Semantic AI Grounding:** Comprehensive machine-readable contexts for autonomous agents via [llms.txt](llms.txt) and [llms-full.txt](llms-full.txt).
+- 🛡️ **DevSecOps Hardening:** SLSA Level 3 Sigstore provenance attestation, 0 CVEs dependency baseline, and Gitleaks scanning.
 
 ---
 
@@ -41,18 +42,18 @@
 
 ```mermaid
 C4Context
-    title System Context Diagram - Mohamed Osama Platform
+    title System Context Diagram - Mohamed Osama Sovereign Platform
 
-    Person(visitor, "Enterprise Client / Recruiter", "Discovers portfolio, verifies credentials, and schedules engagements")
-    Person(ai_agent, "Autonomous AI Agent", "Consumes structured data via LLM grounding and MCP connectors")
+    Person(visitor, "Enterprise Client / Partner", "Evaluates production architecture, reviews contracts, and verifies credentials")
+    Person(ai_agent, "Autonomous AI Agent", "Consumes structured context via LLM grounding (llms.txt) and MCP connectors")
     
-    System(platform, "mohamedosama.me", "Sovereign platform delivering <50ms TTFB, AI agents, and bilingual UI")
-    System(showcase, "mohamed-showcase", "Public contracts, TypeScript interfaces, and mock simulation layer")
+    System(platform, "mohamedosama.me", "Sovereign platform delivering <50ms TTFB, autonomous AI agents, and bilingual UI")
+    System(showcase, "mohamed-showcase", "Public contracts, TypeScript interfaces, and simulation engine")
     System_Ext(wikidata, "Wikidata Knowledge Graph", "Entity Authority (Q141252311)")
     System_Ext(vertex, "Google Cloud Vertex AI", "LLM Inference & Agent Studio (#24009731)")
 
-    Rel(visitor, platform, "Browses and interacts with", "HTTPS / Next.js 16")
-    Rel(visitor, showcase, "Inspects public contracts", "HTTPS / TypeScript")
+    Rel(visitor, platform, "Interacts with live services", "HTTPS / Next.js 16")
+    Rel(visitor, showcase, "Inspects public contracts & schemas", "HTTPS / TypeScript")
     Rel(ai_agent, platform, "Grounds semantic facts via llms.txt", "JSON-LD / Schema.org")
     Rel(platform, wikidata, "Synchronizes entity graph with", "REST / SPARQL")
     Rel(platform, vertex, "Orchestrates AI agents through", "MCP Protocol")
@@ -72,27 +73,82 @@ C4Context
 
 ---
 
+## 📁 Repository Structure
+
+```text
+mohamed-showcase/
+├── .github/
+│   └── workflows/
+│       ├── ci.yml               # Automated TypeScript validation & build
+│       ├── security.yml         # Gitleaks scanning & npm audit (0 CVEs)
+│       ├── codeql.yml           # Static code analysis
+│       └── publish-package.yml  # GitHub Packages & Sigstore SLSA attestation
+├── src/
+│   ├── contracts/               # Strict TypeScript interface contracts
+│   │   ├── author.contract.ts
+│   │   ├── project.contract.ts
+│   │   ├── service.contract.ts
+│   │   ├── system.contract.ts
+│   │   └── index.ts
+│   ├── mocks/                   # High-fidelity mock state for 7 architectures
+│   │   ├── author.mock.ts
+│   │   ├── projects.mock.ts
+│   │   ├── services.mock.ts
+│   │   ├── vitals.mock.ts
+│   │   └── index.ts
+│   ├── client/                  # Simulated API client & query helpers
+│   │   └── index.ts
+│   ├── types/                   # Re-exported types for npm consumers
+│   │   └── index.ts
+│   ├── tests/                   # Native test runner unit test suite
+│   │   └── contracts.test.ts
+│   └── index.ts                 # Master package entry point
+├── wiki/                        # 7-page comprehensive architecture wiki
+├── index.html                   # Interactive Cyber Bento showcase application
+├── llms.txt                     # Semantic AI grounding summary
+├── llms-full.txt                # Complete system architecture specification for LLMs
+├── Dockerfile                   # Multi-stage Alpine container build
+├── docker-compose.yml           # Container orchestration definition
+├── package.json                 # Package metadata & publish configuration
+└── tsconfig.json                # Strict TypeScript configuration
+```
+
+---
+
 ## 🚀 Quickstart
 
-### 1. Local Development
+### 1. Installation via GitHub Packages
+
+```bash
+# Configure npm for GitHub Packages
+npm config set @mohamedosamaai:registry https://npm.pkg.github.com
+
+# Install package
+npm install @mohamedosamaai/mohamed-showcase
+```
+
+### 2. Local Development & Testing
 
 ```bash
 # Clone the showcase repository
 git clone https://github.com/mohamedosamaai/mohamed-showcase.git
 cd mohamed-showcase
 
-# Install TypeScript dependencies
+# Install dependencies
 npm install
 
 # Typecheck and compile contracts
 npm run lint
 npm run build
 
-# Run local interactive showcase
+# Run unit tests (100% pass)
+npm test
+
+# Run local interactive showcase UI
 npx serve .
 ```
 
-### 2. Docker Execution
+### 3. Containerized Execution
 
 ```bash
 # Build and run containerized showcase
@@ -114,9 +170,11 @@ docker compose up -d --build
 
 ---
 
-## 📜 Governance & License
+## 📜 Governance & Documentation
 
 - **System Specification:** [SPEC.md](SPEC.md)
+- **Architecture Wiki:** [`wiki/`](wiki/) (7 Detailed Architecture Modules)
+- **LLM Grounding Context:** [llms.txt](llms.txt) | [llms-full.txt](llms-full.txt)
 - **Code of Conduct:** [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 - **Contributing Guidelines:** [CONTRIBUTING.md](CONTRIBUTING.md)
 - **Security Policy:** [SECURITY.md](SECURITY.md)
