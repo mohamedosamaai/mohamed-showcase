@@ -39,18 +39,28 @@ jobs:
       - name: Run Unit Tests
         run: npm test
 
-      - name: Publish Package Suite to GitHub Packages
+      - name: Prepare Package Workspaces
         run: |
-          # 1. Publish Primary Package
-          npm publish --access public || true
+          mkdir -p packages/core/dist packages/mock/dist
+          cp -r dist/* packages/core/dist/
+          cp -r dist/* packages/mock/dist/
 
-          # 2. Publish Core Contracts Package
-          node -e "const p = require('./package.json'); p.name = '@mohamedosamaai/mohamed-core'; require('fs').writeFileSync('./package.json', JSON.stringify(p, null, 2));"
-          npm publish --access public || true
+      - name: Publish Primary Package (@mohamedosamaai/mohamed-showcase)
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-          # 3. Publish Mock Simulation Package
-          node -e "const p = require('./package.json'); p.name = '@mohamedosamaai/mohamed-mock'; require('fs').writeFileSync('./package.json', JSON.stringify(p, null, 2));"
-          npm publish --access public || true
+      - name: Publish Core Contracts Package (@mohamedosamaai/mohamed-core)
+        run: |
+          cd packages/core
+          npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish Mock Simulation Package (@mohamedosamaai/mohamed-mock)
+        run: |
+          cd packages/mock
+          npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

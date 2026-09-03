@@ -1,6 +1,6 @@
 {
   "name": "@mohamedosamaai/mohamed-showcase",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Interactive Architecture Showcase & Mock Simulation Layer for Mohamed Osama Platform",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

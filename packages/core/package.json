@@ -1,0 +1,20 @@
+{
+  "name": "@mohamedosamaai/mohamed-core",
+  "version": "1.0.2",
+  "description": "Core TypeScript Interface Contracts for Mohamed Osama AI Systems Platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedosamaai/mohamed-showcase.git"
+  },
+  "author": "Mohamed Osama <im@mohamedosama.me>",
+  "license": "MIT"
+}

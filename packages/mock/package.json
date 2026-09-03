@@ -1,0 +1,20 @@
+{
+  "name": "@mohamedosamaai/mohamed-mock",
+  "version": "1.0.2",
+  "description": "High-Fidelity Mock State & Simulation Engine for Mohamed Osama Platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedosamaai/mohamed-showcase.git"
+  },
+  "author": "Mohamed Osama <im@mohamedosama.me>",
+  "license": "MIT"
+}

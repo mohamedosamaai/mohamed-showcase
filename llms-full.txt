@@ -17,11 +17,11 @@
 - **Corporate Entity:** Bagback Digital Solutions (Founder & 100% Sole Owner)
   - **Commercial Registration (CR):** 218773
   - **Tax Identification Number:** 757-139-248
-  - **Legal Framework:** Egyptian Investment Law No. 72/2017
+  - **Legal Framework:** Egyptian Investment Law No. 72/2017 (Registered in Cairo, Egypt)
   - **Operation Start Date:** 2023-10-31
   - **Corporate Email:** hello@bagbacktech.com
-  - **Dual-Location Operating Model:**
-    - **Commercial Strategy & Operations (UAE):** Dubai, United Arab Emirates (+971 50 546 5814)
+  - **Operating Hubs:**
+    - **Founder & Practice Location (UAE):** Dubai, United Arab Emirates (+971 50 546 5814)
     - **Engineering R&D Hub (Egypt):** Floor 6, 3 Makram Ebeid St., Nasr City, R9 Unit, Cairo, Egypt (+20 114 844 9640)
 
 ---
@@ -59,11 +59,13 @@
 ---
 
 ## 4. Flagship Production Platforms & Live Systems
-1. **Resonance8 (https://resonance8.mohamedosama.me):** Real-time multi-track neural audio synthesis & forensic separation.
-2. **Elitk (https://elitk.com):** Sovereign Arabic AI knowledge graphs, secure webmail, and digital intelligence services.
-3. **BagbackTech (https://bagbacktech.com):** Digital product studio portal & enterprise cloud architecture consulting gateway.
-4. **Ops ERP (https://ops.bagbacktech.com):** Multi-tenant field operations platform for maintenance & technical service companies in UAE & KSA.
-5. **AI Developer Workspace (https://ai.bagbacktech.com):** Production prompt engineering library, reusable MCP tool profiles, and model governance dashboard.
+1. **Elitk (https://elitk.com):** AI Social Media Operations SaaS with multi-account scheduling, WhatsApp CRM, and AI copy generation.
+2. **BagbackTech (https://bagbacktech.com):** Digital product studio portal & enterprise cloud architecture consulting gateway.
+3. **Ops ERP (https://ops.bagbacktech.com):** Multi-tenant field operations platform for maintenance & technical service companies in UAE & KSA.
+4. **AI Developer Workspace (https://ai.bagbacktech.com):** Production prompt engineering library, reusable MCP tool profiles, and model governance dashboard.
+5. **Resonance8 (https://resonance8.mohamedosama.me):** Real-time multi-track neural audio synthesis & 3D WebGL spatial simulation.
+6. **Bagback Shop (https://bagback.shop):** Multi-vendor luxury commerce platform with real-time affiliate conversion attribution.
+7. **VOUNO (https://vouno.ae):** UAE trade finance and contract advisory SaaS.
 
 ---
 

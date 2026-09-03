@@ -2,31 +2,40 @@
 
   <!-- Animated Cyber Typing SVG Header -->
   <a href="https://github.com/mohamedosamaai/mohamed-showcase">
-    <img src="https://readme-typing-svg.demolab.com/?font=Outfit&size=24&pause=1000&color=00FF9D&center=true&vCenter=true&width=750&lines=Mohamed+Osama+Sovereign+Architecture+Showcase;Production+AI+Systems+%26+Cloud+Infrastructure;TypeScript+5.7%2B+Contracts+%26+Simulation+Suite;Sigstore+SLSA+Level+3+Provenance+Attested" alt="Mohamed Osama Showcase Typing Banner" />
+    <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=24&duration=2500&pause=1000&color=00FF9D&center=true&vCenter=true&width=750&lines=Mohamed+Osama+Sovereign+Architecture+Showcase;Production+AI+Systems+%26+Cloud+Infrastructure;TypeScript+5.7%2B+Contracts+%26+Simulation+Suite;Sigstore+SLSA+Level+3+Provenance+Attested" alt="Mohamed Osama Showcase Typing Banner" />
   </a>
 
   <br/>
 
-  [![Live Production](https://img.shields.io/badge/Live_Platform-mohamedosama.me-00ff9d?style=for-the-badge&logo=googlechrome&logoColor=black)](https://mohamedosama.me)
+  [![Live Platform](https://img.shields.io/badge/Live_Platform-mohamedosama.me-00ff9d?style=for-the-badge&logo=googlechrome&logoColor=black)](https://mohamedosama.me)
   [![Wikidata Authority](https://img.shields.io/badge/Wikidata-Q141252311-3399CC?style=for-the-badge&logo=wikidata&logoColor=white)](https://www.wikidata.org/wiki/Q141252311)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.7+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
   [![Security Audit](https://img.shields.io/badge/Security_Audit-0_CVEs-10b981?style=for-the-badge&logo=securityscorecard&logoColor=white)](SPEC.md)
+  [![SLSA Level 3](https://img.shields.io/badge/SLSA-Level_3_Attested-7C3AED?style=for-the-badge&logo=sigstore&logoColor=white)](https://slsa.dev)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
   <br/>
 
   <p align="center">
     <b>Production AI Systems Architect • Senior Full-Stack Engineer • Founder</b><br/>
-    <i>Bagback Digital Solutions (CR: 218773, Dubai, UAE) • Cairo, Egypt</i>
+    <i>Mohamed Osama (Dubai, UAE) • Bagback Digital Solutions (CR: 218773, Tax ID: 757-139-248, Cairo, Egypt)</i>
   </p>
 
 </div>
 
 ---
 
-## 🌟 Overview & Purpose
+## 🌟 Executive Overview & Purpose
 
 `mohamed-showcase` is the official open interface specification, compiled contracts repository, and interactive simulation dashboard for the sovereign AI production platform of **Mohamed Osama** ([mohamedosama.me](https://mohamedosama.me)).
+
+```text
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                           MOHAMED OSAMA SHOWCASE                                │
+│   📐 Zero-Debt Interface Contracts    ⚡ Interactive Simulation Engine         │
+│   🛡️ Sigstore SLSA Level 3 Provenance  🤖 Grounded Semantic Context (llms.txt)   │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
 
 ### 🎯 Core Capabilities
 - 📐 **Modular TypeScript Interface Contracts:** Zero-debt type definitions for ecosystem entities, multi-agent pipelines, and telemetry envelopes ([`src/contracts/`](src/contracts/)).
@@ -62,13 +71,42 @@ C4Context
 
 ## 📊 System Vitals & Standards
 
-| Vitals Dimension | Standard | Verification Metric |
-| :--- | :--- | :--- |
-| **Edge TTFB** | `< 50ms` | Edge optimized with Turbopack & Brotli compression |
-| **Security Score** | `0 CVEs` | 100% Zero-Vulnerability dependency baseline |
-| **TypeScript Coverage** | `100% Strict` | `tsc --noEmit` exits with 0 errors |
-| **Compiled Routes** | `99 Routes` | Full static generation & dynamic bilingual parity |
-| **Git Commit Authorship** | `100% Unified` | All commits by `Mohamed Osama <im@mohamedosama.me>` |
+<table align="center" width="100%">
+  <thead>
+    <tr>
+      <th align="left">Vitals Dimension</th>
+      <th align="center">Standard</th>
+      <th align="left">Verification Metric</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>⚡ Edge TTFB</b></td>
+      <td align="center"><code>&lt; 50ms</code></td>
+      <td>Edge optimized with Turbopack & Brotli compression</td>
+    </tr>
+    <tr>
+      <td><b>🛡️ Security Score</b></td>
+      <td align="center"><code>0 CVEs</code></td>
+      <td>100% Zero-Vulnerability dependency baseline</td>
+    </tr>
+    <tr>
+      <td><b>📐 TypeScript Coverage</b></td>
+      <td align="center"><code>100% Strict</code></td>
+      <td><code>tsc --noEmit</code> exits with 0 errors</td>
+    </tr>
+    <tr>
+      <td><b>🚦 Compiled Routes</b></td>
+      <td align="center"><code>99 Routes</code></td>
+      <td>Full static generation & dynamic bilingual parity</td>
+    </tr>
+    <tr>
+      <td><b>✍️ Git Commit Authorship</b></td>
+      <td align="center"><code>100% Unified</code></td>
+      <td>All commits by <code>Mohamed Osama &lt;im@mohamedosama.me&gt;</code></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -114,6 +152,9 @@ mohamed-showcase/
 │   ├── tests/                   # Native test runner unit test suite
 │   │   └── contracts.test.ts
 │   └── index.ts                 # Master package entry point
+├── packages/                    # Dedicated publishing workspaces
+│   ├── core/                    # @mohamedosamaai/mohamed-core
+│   └── mock/                    # @mohamedosamaai/mohamed-mock
 ├── wiki/                        # 7-page comprehensive architecture wiki
 ├── index.html                   # Interactive Cyber Bento showcase application
 ├── llms.txt                     # Semantic AI grounding summary
@@ -159,21 +200,13 @@ npm test
 npx serve .
 ```
 
-### 3. Containerized Execution
-
-```bash
-# Build and run containerized showcase
-docker compose up -d --build
-
-# Access showcase at http://localhost:3080
-```
-
 ---
 
 ## 🏛️ Verified Authority & Accreditations
 
 - 🌐 **Wikidata Entity:** [`Q141252311`](https://www.wikidata.org/wiki/Q141252311)
-- 🏢 **Bagback Digital Solutions:** CR `218773` | Tax ID `757-139-248` (Dubai, UAE & Cairo, Egypt)
+- 🏢 **Bagback Digital Solutions:** CR `218773` | Tax ID `757-139-248` (Cairo, Egypt)
+- 📍 **Founder & Lead Architect:** Mohamed Osama (Dubai, United Arab Emirates)
 - 🏆 **Dubai Chamber of Digital Economy:** Notable Contribution Award (`MeYYoRxN`)
 - ☁️ **Google Cloud:** Vertex AI Studio Practitioner ID `#24009731`
 - 📈 **Google Skillshop:** Conversion Rate Optimization Certification ID `#192682733`

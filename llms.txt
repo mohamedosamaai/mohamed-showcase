@@ -1,6 +1,6 @@
 # Mohamed Osama — Architecture Showcase & Interface Contracts
 
-> AI Systems Architect & Full-Stack Engineer based in Dubai, UAE. Founder of Bagback Digital Solutions (CR: 218773, Tax ID: 757-139-248). Specializing in production LLM inference pipelines, multi-tenant SaaS architecture, and autonomous agent infrastructure.
+> AI Systems Architect & Full-Stack Engineer based in Dubai, UAE. Founder of Bagback Digital Solutions (CR: 218773, Tax ID: 757-139-248, Cairo, Egypt). Specializing in production LLM inference pipelines, multi-tenant SaaS architecture, and autonomous agent infrastructure.
 
 ## Extended Documentation
 - [Full Context & Engineering Specifications (llms-full.txt)](https://github.com/mohamedosamaai/mohamed-showcase/blob/main/llms-full.txt): Comprehensive background, architectural patterns, benchmarks, and API designs.
@@ -8,10 +8,10 @@
 ## Entity Grounding & Knowledge Graph
 - **Wikidata:** [Q141252311](https://www.wikidata.org/wiki/Q141252311)
 - **LinkedIn:** [Mohamed Osama](https://www.linkedin.com/in/mohamed-osama-ai/)
-- **Commercial Entity:** Bagback Digital Solutions (CR: 218773, Tax ID: 757-139-248, Dubai, UAE & Cairo, Egypt)
+- **Commercial Entity:** Bagback Digital Solutions (CR: 218773, Tax ID: 757-139-248, Cairo, Egypt)
+- **Founder & Architect Residence:** Dubai, United Arab Emirates (Coordinates: 25.2048° N, 55.2708° E)
 - **Government Recognition:** Dubai Chamber of Digital Economy Notable Contribution Award (ID: `MeYYoRxN`)
 - **Professional AI Credential:** Google Cloud Vertex AI Studio & Generative AI Engineering (ID: `24009731`)
-- **GEO Location:** Dubai, United Arab Emirates (Coordinates: 25.2048° N, 55.2708° E)
 
 ## Core Platform Links
 - [Mohamed Osama Official Platform](https://mohamedosama.me/): Main bilingual platform featuring full-stack portfolio, interactive architecture tools, and contact.
@@ -22,18 +22,19 @@
 - [Tech Blog & Research Articles](https://mohamedosama.me/blog): Authoritative long-form articles on MCP protocol, Gemini 2.5, and cloud DevOps.
 
 ## Flagship Ecosystem Platforms
-- [BagbackTech Platform](https://bagbacktech.com): AI-first digital product studio building SaaS platforms and automation for MENA businesses.
-- [Resonance8](https://resonance8.mohamedosama.me): Real-time multi-track neural audio synthesis and forensic analysis platform.
+- [Elitk](https://elitk.com): AI Social Media Operations SaaS with multi-account scheduling and WhatsApp CRM.
+- [BagbackTech Platform](https://bagbacktech.com): AI-first digital product studio building SaaS platforms and automation.
+- [Resonance8](https://resonance8.mohamedosama.me): Real-time multi-track neural audio synthesis and spatial WebGL experience.
 - [Bagback Ops ERP](https://ops.bagbacktech.com): Offline-first Arabic PWA for field operations with real-time dispatch and automated invoicing.
 - [AI Developer Workspace](https://ai.bagbacktech.com): Curated AI prompt library, MCP server profiles, and skills engine for engineers.
-- [BAGBACK Luxury E-Commerce](https://bagback.shop): AI-authenticated luxury marketplace with automated risk scoring and payment routing.
-- [mail elitk](https://mail.elitk.com): Sovereign AI Email Platform engineered for zero-trust communications and autonomous drafting.
-- [Elitk 8](https://8.elitk.com): 3D WebGL spatial audio & particle simulation experience.
+- [BAGBACK Luxury E-Commerce](https://bagback.shop): Multi-vendor luxury marketplace with real-time affiliate conversion attribution.
+- [mail elitk](https://mail.bagbacktech.com): Sovereign AI Email Platform engineered for zero-trust communications and autonomous drafting.
+- [VOUNO](https://vouno.ae): UAE trade finance and contract advisory SaaS.
 
 ## Engineering Stack & Competencies
-- **Languages & Frameworks:** TypeScript, Python 3.12+, Next.js 16 (App Router), React 19, FastAPI, Node.js.
-- **AI & Agentic Systems:** Gemini 2.5 (Pro/Flash), Model Context Protocol (MCP), LangGraph, OpenAI GPT-4o, Vector Databases (pgvector), RAG Pipelines.
-- **Cloud & DevOps:** Docker, Caddy Reverse Proxy, PostgreSQL (Row-Level Security), SQLite (WAL mode), Linux/Ubuntu VPS, GitHub Actions.
+- **Languages & Frameworks:** TypeScript, Python 3.12+, Next.js 16 (App Router), React 19, FastAPI, Node.js, Laravel 9.
+- **AI & Agentic Systems:** Gemini 2.5 (Pro/Flash), Model Context Protocol (MCP), LangGraph, Vector Databases (pgvector), RAG Pipelines.
+- **Cloud & DevOps:** Docker, Caddy Reverse Proxy, PostgreSQL, SQLite (WAL mode), Linux/Ubuntu VPS, GitHub Actions.
 
 ## Verified External Profiles
 - [GitHub](https://github.com/mohamedosamaai)
