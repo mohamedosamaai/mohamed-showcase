@@ -20,8 +20,7 @@ export interface CorporateEntity {
 }
 
 export interface AuthorityCredentials {
-  wikidataId: string
-  wikidataUrl: string
+  googleDeveloperUrl: string
   linkedInUrl: string
   vertexAiStudioId: string
   dubaiChamberAwardId: string

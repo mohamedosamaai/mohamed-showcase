@@ -25,7 +25,7 @@ describe('🏛️ Mohamed Osama Showcase — Architecture Contracts Suite', () =
     assert.equal(MOCK_AUTHOR.organization.name, 'Bagback Digital Solutions')
     assert.equal(MOCK_AUTHOR.organization.crNumber, '218773')
     assert.equal(MOCK_AUTHOR.organization.taxId, '757-139-248')
-    assert.equal(MOCK_AUTHOR.authority.wikidataId, 'Q141252311')
+    assert.equal(MOCK_AUTHOR.authority.googleDeveloperUrl, 'https://g.dev/mohamedosamaai')
     assert.equal(MOCK_AUTHOR.authority.vertexAiStudioId, '24009731')
     assert.equal(MOCK_AUTHOR.authority.dubaiChamberAwardId, 'MeYYoRxN')
     assert.equal(MOCK_AUTHOR.authority.googleSkillshopId, '192682733')

@@ -8,7 +8,7 @@
   <br/>
 
   [![Live Platform](https://img.shields.io/badge/Live_Platform-mohamedosama.me-00ff9d?style=for-the-badge&logo=googlechrome&logoColor=black)](https://mohamedosama.me)
-  [![Wikidata Authority](https://img.shields.io/badge/Wikidata-Q141252311-3399CC?style=for-the-badge&logo=wikidata&logoColor=white)](https://www.wikidata.org/wiki/Q141252311)
+  [![Google Developer](https://img.shields.io/badge/Google_Developer-Certified-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://g.dev/mohamedosamaai)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.7+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
   [![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-mohamedosamaai-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/mohamedosamaai)
   [![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-mohamedosamaai-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/mohamedosamaai)
@@ -59,13 +59,13 @@ C4Context
     
     System(platform, "mohamedosama.me", "Sovereign platform delivering <50ms TTFB, autonomous AI agents, and bilingual UI")
     System(showcase, "mohamed-showcase", "Public contracts, TypeScript interfaces, and simulation engine")
-    System_Ext(wikidata, "Wikidata Knowledge Graph", "Entity Authority (Q141252311)")
+    System_Ext(gdev, "Google Developer Authority", "Entity Authority (g.dev/mohamedosamaai)")
     System_Ext(vertex, "Google Cloud Vertex AI", "LLM Inference & Agent Studio (#24009731)")
 
     Rel(visitor, platform, "Interacts with live services", "HTTPS / Next.js 16")
     Rel(visitor, showcase, "Inspects public contracts & schemas", "HTTPS / TypeScript")
     Rel(ai_agent, platform, "Grounds semantic facts via llms.txt", "JSON-LD / Schema.org")
-    Rel(platform, wikidata, "Synchronizes entity graph with", "REST / SPARQL")
+    Rel(platform, gdev, "Synchronizes entity graph with", "REST / JSON-LD")
     Rel(platform, vertex, "Orchestrates AI agents through", "MCP Protocol")
 ```
 
@@ -218,13 +218,13 @@ Comprehensive technical documentation is hosted on the official [GitHub Wiki](ht
 
 ## 🏛️ Verified Authority & Accreditations
 
-- 🌐 **Wikidata Entity:** [`Q141252311`](https://www.wikidata.org/wiki/Q141252311)
+- 🌐 **Google Developer Profile:** [`g.dev/mohamedosamaai`](https://g.dev/mohamedosamaai)
 - 🏢 **Bagback Digital Solutions:** CR `218773` | Tax ID `757-139-248` (Cairo, Egypt)
 - 📍 **Founder & Lead Architect:** Mohamed Osama (Dubai, United Arab Emirates)
-- 🏆 **Dubai Chamber of Digital Economy:** Notable Contribution Award (`MeYYoRxN`)
-- ☁️ **Google Cloud:** Vertex AI Studio Practitioner ID `#24009731`
-- 📈 **Google Skillshop:** Conversion Rate Optimization Certification ID `#192682733`
-- 🎓 **Semrush Academy:** Technical SEO & Content Marketing ID `#807156`
+- 🏆 **Dubai Chamber of Digital Economy:** [Notable Contribution Award (`MeYYoRxN`)](https://mohamedosama.me/about#credentials)
+- ☁️ **Google Cloud:** [Vertex AI Studio Practitioner ID `#24009731`](https://www.skills.google/public_profiles/8e479ae0-4f8b-4bdd-abc6-d196d14dc6f5/badges/24009731)
+- 📈 **Google Skillshop:** [Conversion Rate Optimization Certification ID `#192682733`](https://skillshop.credential.net/f1073072-84ce-4acf-b765-3aad44fe4490)
+- 🎓 **Semrush Academy:** [Technical SEO & Content Marketing ID `#807156`](https://static.semrush.com/academy/certificates/788c3f38f6/mohamed-osama-hegazy_25.pdf)
 
 ---
 

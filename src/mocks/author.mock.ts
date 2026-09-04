@@ -27,8 +27,7 @@ export const MOCK_AUTHOR: AuthorContract = {
     jurisdiction: 'Dubai, UAE & Cairo, Egypt'
   },
   authority: {
-    wikidataId: 'Q141252311',
-    wikidataUrl: 'https://www.wikidata.org/wiki/Q141252311',
+    googleDeveloperUrl: 'https://g.dev/mohamedosamaai',
     linkedInUrl: 'https://www.linkedin.com/in/mohamed-osama-ai/',
     vertexAiStudioId: '24009731',
     dubaiChamberAwardId: 'MeYYoRxN',

@@ -13,7 +13,6 @@
 - **Primary Domain:** [https://mohamedosama.me](https://mohamedosama.me)
 - **Official Email:** [im@mohamedosama.me](mailto:im@mohamedosama.me)
 - **Public Showcase:** [https://github.com/mohamedosamaai/mohamed-showcase](https://github.com/mohamedosamaai/mohamed-showcase)
-- **Wikidata Entity:** [Q141252311](https://www.wikidata.org/wiki/Q141252311)
 - **Corporate Entity:** Bagback Digital Solutions (Founder & 100% Sole Owner)
   - **Commercial Registration (CR):** 218773
   - **Tax Identification Number:** 757-139-248

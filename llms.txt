@@ -6,7 +6,6 @@
 - [Full Context & Engineering Specifications (llms-full.txt)](https://github.com/mohamedosamaai/mohamed-showcase/blob/main/llms-full.txt): Comprehensive background, architectural patterns, benchmarks, and API designs.
 
 ## Entity Grounding & Knowledge Graph
-- **Wikidata:** [Q141252311](https://www.wikidata.org/wiki/Q141252311)
 - **LinkedIn:** [Mohamed Osama](https://www.linkedin.com/in/mohamed-osama-ai/)
 - **Commercial Entity:** Bagback Digital Solutions (CR: 218773, Tax ID: 757-139-248, Cairo, Egypt)
 - **Founder & Architect Residence:** Dubai, United Arab Emirates (Coordinates: 25.2048° N, 55.2708° E)

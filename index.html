@@ -32,7 +32,6 @@
         "url": "https://mohamedosama.me",
         "email": "im@mohamedosama.me",
         "sameAs": [
-          "https://www.wikidata.org/wiki/Q141252311",
           "https://www.linkedin.com/in/mohamed-osama-ai/",
           "https://github.com/mohamedosamaai",
           "https://g.dev/mohamedosamaai",
@@ -294,7 +293,7 @@
           <p class="text-xs font-mono text-emerald-400 mt-1">Entity: Mohamed Osama | Bagback Digital Solutions</p>
         </div>
         <div class="flex flex-wrap gap-2 text-xs font-mono">
-          <a href="https://www.wikidata.org/wiki/Q141252311" target="_blank" class="px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700 hover:text-white hover:border-brand-500 transition">Wikidata: Q141252311</a>
+          <a href="https://g.dev/mohamedosamaai" target="_blank" class="px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700 hover:text-white hover:border-brand-500 transition">Google Developer: Certified</a>
           <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700">CR: 218773</span>
           <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700">Tax ID: 757-139-248</span>
           <span class="px-2.5 py-1 rounded bg-slate-800 text-slate-300 border border-slate-700">Dubai Chamber: MeYYoRxN</span>
@@ -328,7 +327,7 @@
         <a href="https://github.com/mohamedosamaai/mohamed-showcase" class="hover:text-white transition">GitHub Repo</a>
         <a href="https://mohamedosama.me" class="hover:text-white transition">Live Website</a>
         <a href="llms.txt" class="hover:text-white transition font-mono">llms.txt</a>
-        <a href="https://www.wikidata.org/wiki/Q141252311" class="hover:text-white transition">Wikidata Entity</a>
+        <a href="https://g.dev/mohamedosamaai" class="hover:text-white transition">Google Developer</a>
       </div>
     </div>
   </footer>
@@ -425,7 +424,7 @@ export interface AuthorContract {
   email: string
   geo: { region: string; placename: string; latitude: number; longitude: number }
   organization: { name: string; crNumber: string; taxId: string; jurisdiction: string }
-  authority: { wikidataId: string; vertexAiStudioId: string; dubaiChamberAwardId: string }
+  authority: { googleDeveloperUrl: string; vertexAiStudioId: string; dubaiChamberAwardId: string }
 }`,
       mocks: `export const MOCK_SYSTEM_VITALS: SystemVitalsContract = {
   ttfb: '< 50ms',
@@ -454,7 +453,7 @@ export async function fetchSystemVitals(): Promise<ApiResponseContract<SystemVit
         role: "Production AI Systems Architect",
         status: "Online",
         vitals: { ttfb: "<50ms", cves: 0, routes: 99, commits: 266, uptime: "99.99%" },
-        authority: { wikidata: "Q141252311", dubaiChamber: "MeYYoRxN", vertexAi: "24009731" }
+        authority: { googleDeveloper: "g.dev/mohamedosamaai", dubaiChamber: "MeYYoRxN", vertexAi: "24009731" }
       }, null, 2)
     };
 
